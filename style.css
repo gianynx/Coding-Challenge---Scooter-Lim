@@ -1,0 +1,78 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+  width: 950px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 85px 75px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: rgba(7,7,7,0.5);
+}
+
+.intestazione{
+  text-align: center;
+}
+
+.logo{
+  width: 180px;
+  height: 80px;
+}
+
+.logo-text{
+  color: rgb(0, 255, 0);
+}
+
+.logo-text .input-nav .section-title .indirizzo .stato{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menù-di-navigazione{
+  background-color: rgb(0,255,0);
+  padding: 12px;
+}
+
+.input-nav{
+  text-align: center;
+}
+
+.section-title, .indirizzo{
+  display: inline-block;
+  color: white;
+}
+
+.arrow:before{
+  content: "\21A6";
+  color: white;
+}
+
+.stato{
+  color: white;
+}
+
+.stato-carica-1{
+  width: 250px;
+  height: 20px;
+  background-color: #FFC125;
+  border-radius: 5px;
+}
+
+.stato-carica-2{
+  width: 490px;
+  height: 20px;
+  background-color: #00CD00;
+  border-radius: 5px;
+}
+
+.stato-carica-3{
+  width: 130px;
+  height: 20px;
+  background-color: #DC143C;
+  border-radius: 5px;
+}
